@@ -1,0 +1,26 @@
+{
+  "name": "moniduino",
+  "version": "1.0.0",
+  "description": "Monitor your arduino pins in real time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo -e 'tests not implemented'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4rzael/moniduino"
+  },
+  "keywords": [
+    "arduino",
+    "web",
+    "monitoring"
+  ],
+  "author": "4rzael",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "minimist": "^1.2.0",
+    "serialport": "^4.0.0",
+    "socket.io": "^1.4.8"
+  }
+}
