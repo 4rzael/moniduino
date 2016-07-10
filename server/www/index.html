@@ -11,54 +11,55 @@ body {
 	font-family: helvetica, arial, sans serif;
 }
 </style>
+
+<script src="src/dygraph-combined-dev.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/src/sync.js"></script>
 </head>
 
-<body>
+<body onload="createGraphs()">
 
 
 <h4 id="D0"> DIGITAL 0 : ???</h4>
-
+<div id="D0_graph"></div>
 <h4 id="D1"> DIGITAL 1 : ???</h4>
-
+<div id="D1_graph"></div>
 <h4 id="D2"> DIGITAL 2 : ???</h4>
-
+<div id="D2_graph"></div>
 <h4 id="D3"> DIGITAL 3 : ???</h4>
-
+<div id="D3_graph"></div>
 <h4 id="D4"> DIGITAL 4 : ???</h4>
-
+<div id="D4_graph"></div>
 <h4 id="D5"> DIGITAL 5 : ???</h4>
-
+<div id="D5_graph"></div>
 <h4 id="D6"> DIGITAL 6 : ???</h4>
-
+<div id="D6_graph"></div>
 <h4 id="D7"> DIGITAL 7 : ???</h4>
-
+<div id="D7_graph"></div>
 <h4 id="D8"> DIGITAL 8 : ???</h4>
-
+<div id="D8_graph"></div>
 <h4 id="D9"> DIGITAL 9 : ???</h4>
-
+<div id="D9_graph"></div>
 <h4 id="D10"> DIGITAL 10 : ???</h4>
-
+<div id="D10_graph"></div>
 <h4 id="D11"> DIGITAL 11 : ???</h4>
-
+<div id="D11_graph"></div>
 <h4 id="D12"> DIGITAL 12 : ???</h4>
-
+<div id="D12_graph"></div>
 <h4 id="D13"> DIGITAL 13 : ???</h4>
-
+<div id="D13_graph"></div>
 
 <h4 id="A0"> ANALOG 0 : ???</h4>
-
+<div id="A0_graph"></div>
 <h4 id="A1"> ANALOG 1 : ???</h4>
-
+<div id="A1_graph"></div>
 <h4 id="A2"> ANALOG 2 : ???</h4>
-
+<div id="A2_graph"></div>
 <h4 id="A3"> ANALOG 3 : ???</h4>
-
+<div id="A3_graph"></div>
 <h4 id="A4"> ANALOG 4 : ???</h4>
-
+<div id="A4_graph"></div>
 <h4 id="A5"> ANALOG 5 : ???</h4>
-
-<script src="/socket.io/socket.io.js"></script>
-<script src="/sync.js"></script>
-
+<div id="A5_graph"></div>
 </body>
 </html>
