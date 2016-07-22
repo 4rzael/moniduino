@@ -14,6 +14,7 @@ public:
 	void stop();
 
 	void sendData();
+	void syncPin(int pinNumber);
 
 private:
 	byte const _digitals;

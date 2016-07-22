@@ -33,3 +33,18 @@ void Moniduino::sendData() {
 		Serial.println(analogRead(analog), DEC);		
 	}
 }
+
+void Moniduino::syncPin(int pin) {
+	if (pin < A0) { // digital
+		Serial.print(F("MONIDUINO DIGITAL "));
+		Serial.print(pin, DEC);
+		Serial.print(F(" "));
+		Serial.println(digitalRead(pin), DEC);
+	}
+	else { // analog
+		Serial.print(F("MONIDUINO ANALOG "));
+		Serial.print(pin - A0, DEC);
+		Serial.print(F(" "));
+		Serial.println(analogRead(pin), DEC);		
+	}
+}

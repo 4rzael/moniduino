@@ -10,6 +10,6 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   delay(10);
-  m.sendData();
+  m.syncPin(A0);
 }
 
